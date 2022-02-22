@@ -2,18 +2,35 @@
 <html>
   <head>
     <meta charset="utf-8"/>
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Responsive Layout</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
   </head>
   <body>
 
-    <div id="header">HEADER</div>
+    <div id="header">
+      <div id="logo">
+        <div id="logo-title">Béhance</div>
+
+          <div id="logo-main">Student<span>Show</span></div>
+          <div id="logo-description">Showcase & Discover<br/>Creative Work by Students</div>
+
+      </div>
+    </div>
     <div id="menu">
       <ul>
-        <li>GALLERY</li>
-        <li>ABOUT</li>
+        <li><i class="fa-solid fa-trash"></i> GALLERY</li>
+        <li><i class="fa-regular fa-address-card"></i> ABOUT</li>
         <li>Sign UP & Show Case Your Work</li>
         <li>Login</li>
+
+        <li id="search-bar" >
+          Search
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" />
+        </li>
       </ul>
 
     </div>
@@ -56,19 +73,118 @@
         </div>
 
       </div>
-      <div id="content"></div>
-       <div class="card">
-         <div class="card-image">
-           <img src="fotod-responsive/p01vnqksq9171.jpg">
-           </div>
+      <div id="content">
+        <div class="card">
+          <div class="card-image">
+            <img src="fotod-responsive/bsdfbafsd.jpeg" height="250px"></img>
+          </div>
+          <div class="card-title">Little dog</div>
+          <div class="card-subtitle">by John Doe</div>
+          <div class="card-reviews">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <span class="card-likes">134</span>
+            <i class="fa-solid fa-eye"></i>
+            <span class="card-views">504</span>
+          </div>
+          <hr>
+          <div class="card-footer">
+            Art, Puig Castellar
+          </div>
+        </div>
 
-           </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="fotod-responsive/messi.jpg" height="250px"></img>
+          </div>
+          <div class="card-title">Little duck</div>
+          <div class="card-subtitle">by John Doe</div>
+          <div class="card-reviews">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <span class="card-likes">434</span>
+            <i class="fa-solid fa-eye"></i>
+            <span class="card-views">704</span>
+          </div>
+          <hr>
+          <div class="card-footer">
+            Art, Puig Castellar
+          </div>
+        </div>
 
-         </div>
-       </div>
-      <div id="banner">BANNER</div>
+        <div class="card">
+          <div class="card-image">
+            <img src="fotod-responsive/p01vnqksq9171.jpg" height="250px"></img>
+          </div>
+          <div class="card-title">Little little dog</div>
+          <div class="card-subtitle">by John Doe</div>
+          <div class="card-reviews">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <span class="card-likes">234</span>
+            <i class="fa-solid fa-eye"></i>
+            <span class="card-views">604</span>
+          </div>
+          <hr>
+          <div class="card-footer">
+            Art, Puig Castellar
+          </div>
+        </div>
+
+      </div>
+      <div id="banner">
+        <img src="fotod-responsive/vertical-bubble-tea-ad-on-blue-ray-pattern-free-vector.jpg"/>
+      </div>
     </div>
-    <div id="footer">FOOTER</div>
+    <div id="footer">
+      <div class=""></div>
+      <div class="footer-columns">
+
+        <div class="footer-column">
+          <h6>OFFER TEAM</h6>
+          <ul>
+            <li>SELL</li>
+            <li>BUY</li>
+            <li>PRICING</li>
+            <li>BENEFITS</li>
+            <li>HOW IT WORKS</li>
+            <li>ABOUT</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h6>LOCATIONS</h6>
+          <ul>
+            <li>RALEIGH</li>
+            <li>DURHAM</li>
+            <li>CHAPEL HILL</li>
+            <li>CARY</li>
+            <li>APEX</li>
+            <li>CHARLOTTE</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h6>CONNECT</h6>
+          <ul>
+            <li>888-123-1234</li>
+            <li>EMAIL US</li>
+            <li>FACEBOOK</li>
+            <li>TWITTER</li>
+            <li>LINKEDIN</li>
+            <li>INSTAGRAM</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h6>FIND US</h6>
+          <ul>
+            <li>123 Main St</li>
+            <li>Raleigh NC, 27701</li>
+            <li>North Carolina</li>
+            <li>888-123-1234</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class=""></div>
+
+
+    </div>
 
   </body>
 </html>
